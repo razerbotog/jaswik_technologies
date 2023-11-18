@@ -1,0 +1,504 @@
+@media (max-width: 1030px){
+	/*header*/
+	/*header*/
+	/*	navigation*/
+
+	/*#navigation .fixed-top{
+    height: 4.1rem;
+	}*/
+	#navigation .navbar-brand{
+	    height: 3rem;
+	    width: 7.9rem;
+	    transform: translateY(-2.7rem);
+	}
+	#navigation .navbar-brand img{
+	    height: 8.1rem;
+	}
+	#navigation .navbar-nav .nav-item .nav-link{
+    padding: 0.5rem 1rem;
+    text-align: center;
+    font-size: 0.7rem;
+	}
+	#navigation .navbar-nav .nav-item .nav-link:hover,
+	#navigation .navbar-nav .nav-item .nav-link.active{
+    font-size: 1rem;
+    transform: translateY(-0.1rem);
+    transition: 0.2s ease-in ;
+}
+
+	/*	home*/
+	/*carousel*/
+	.home #carouselExampleFade{
+		transform: translateY(2.2rem);
+	    padding-top: 1.75rem;
+	    height: 26rem;
+	    padding-bottom: 1.75rem;
+	}
+	#aboutus{
+		transform: translateY(1.5rem);
+	}
+	#aboutus h2{
+		transform: translateY(1rem);
+	}
+
+	/*	services*/
+	#services .card-3{
+    	transform: translateY(1.5rem);
+    
+	}
+	/*	statistics*/
+	#statistics h3{
+		font-size: 1.5rem;
+	}
+	#statistics p{
+		font-size: 0.8rem;
+	}
+
+	/*	contact*/
+	.contact .info li p a {
+    font-size: 0.7rem;
+    display: inline-block;
+    margin: 0.75rem 0;
+	}
+	/*	testimonial*/
+	.testimonial{
+    padding-top: 1rem;
+    height: 30rem;
+	}
+	/*	scrollToTopBtn*/
+	 #scrollToTopBtn{
+  		transform: translateX(57.313rem);
+	}
+
+}
+
+
+
+
+@media (max-width: 991px){
+	/*	header*/
+	/*	navigation*/
+
+	/*#navigation .fixed-top{
+    height: 4rem;
+	}*/
+	#navigation .navbar-brand{
+/*		border: 1px solid blue;*/
+	    height: 4rem;
+	    width: 7.6rem;
+	    transform: translate(-7.8rem, -1.9rem);
+	}
+	#navigation .navbar-brand img{
+	    height: 7.9rem;
+	}
+	.navbar-toggler{
+	transform: translateX(1.6rem);
+	height: 2.5rem;
+	weight: 2.5rem;
+	}
+	.navigation{
+		height: 2rem;
+	}
+	#navigation .navbar-nav .nav-item .nav-link{
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    text-align: center;
+	}
+	#navigation .navbar-nav .nav-item .nav-link:hover,
+	#navigation .navbar-nav .nav-item .nav-link.active{
+    font-size: 1.5rem;
+    transform: translateY(-0.2rem);
+    transition: 0.2s ease-in ;
+	}
+
+	/*carousel*/
+	.home #carouselExampleFade{
+		 transform: translateY(2.3rem);
+	    padding-top: 1.75rem;
+	    height: 22rem;
+	    padding-bottom: 1.75rem;
+	}
+	/*	about us*/
+	#aboutus{
+		transform: translateY(3.3rem);
+	}
+	/*	services	*/
+	.services{
+		    height: 135rem;
+	}
+	#services .card-2,
+	.card-3,
+	.card-4
+	.card-5{
+		transform: translateY(4rem);
+	}
+	#services .card-3{
+    	transform: translateY(8rem);
+    
+	}
+	#services .card-4{
+		transform: translateY(8rem);
+	}
+	#services .card-5{
+		transform: translateY(11rem);
+	}
+	/*	statistics*/
+	#statistics{
+/*		transform: translateY(10rem);*/
+	}
+	/*	testimonial*/
+	.testimonial{
+/*    	transform: translateY(10rem);*/
+	}
+	/*	contact*/
+	.contact .info li p a{
+		transform: translateX(-4rem);
+	}
+	.contact .info li span{
+		transform: translateX(-4rem);
+	}
+	.contact form{
+		transform: translateX(4rem);
+	}
+	/*	scrollToTopBtn*/
+	 #scrollToTopBtn{
+  		transform: translateX(53.313rem);
+	}
+}
+
+
+
+
+@media (max-width: 768px){
+	/*	navigation*/
+
+	#navigation .navbar-brand{
+/*		border: 1px solid blue;*/
+	    height: 4rem;
+	    width: 7.6rem;
+	    transform: translate(-0.8rem, -1.8rem);
+	}
+	#navigation .navbar-brand img{
+	    height: 7.9rem;
+
+	}
+	.navbar-toggler{
+	transform: translateX(-1rem);
+	}
+	/*carousel*/
+	.home #carouselExampleFade{
+	    padding-top: 1.75rem;
+	    height: 19.5rem;
+	    padding-bottom: 1.75rem;
+	}
+/*	statistics*/
+	#statistics{
+		transform: translateY(-1rem);
+	}
+	/*	testimonial*/
+	.testimonial{
+    padding-top: 3rem;
+    height: 30rem;
+    transform: translateY(-2.5rem);
+	}
+	/*	contact*/
+	#contact{
+		transform: translateY(-2.3rem);
+	}
+	.contact .info li p a{
+		font-size: 0.6rem;
+		transform: translateX(-2rem);
+	}
+	.contact .info li span{
+		transform: translateX(-1.5rem);
+	}
+	.contact form{
+		transform: translateX(1rem);
+	}
+	/*	scrollToTopBtn*/
+	 #scrollToTopBtn{
+  		transform: translateX(40.313rem);
+	}
+}
+
+@media (max-width: 420px){
+
+/*	aboutus*/
+	#aboutus{
+		transform: translateY(-5rem);
+		padding: 0;
+
+	}
+	#aboutus .headline h2{
+		font-size: 1rem;
+    	}
+	#aboutus .aboutus-info-1{
+    	font-size: 0.7rem;
+    	transform: translateY(-2rem);
+		height: 25rem;
+
+	}
+
+	/*	services*/
+	#services{
+    	transform: translateY(-10rem);		
+	}
+	.product{
+		padding: 0;
+		transform: translateY(-8rem);
+	}
+	.solution{
+		padding: 0;
+		transform: translateY(-8rem);
+	}
+	/*	statistics*/
+	#statistics{
+		transform: translateY(-7rem);
+	}
+	#statistics h3{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	#statistics p{
+		font-size: 0.8rem;
+		text-align: center;
+    	margin-bottom: 0.5rem;
+	}
+	#testimonial{
+		    transform: translateY(-7rem);
+	}
+	#testimonial .testimonial-wrapper{
+		padding: 0;
+	}
+	#testimonial .testimonial-wrapper h3{
+		transform: translateY(1rem);
+		font-size: 0.9rem;
+	}
+		#testimonial .testimonial-wrapper span{
+			font-size: 0.9rem;
+		}
+	#testimonial .testimonial-wrapper p {
+		font-size: 0.7rem;
+	}
+	/*	contact*/
+	#contact{
+		transform: translateY(-7rem);
+	}
+	.contact .info li p a{
+		    font-size: 0.6rem;
+    transform: translateX(-1.4rem);
+	}
+	.contact .info li span{
+		transform: translateX(-1rem);
+
+
+	}
+	.contact .inputs{
+		transform: translate(-1.2rem, -19rem);
+
+	}
+	.contact .socials{
+		transform: translate(1rem, 27rem);
+	}
+		/*	scrollToTopBtn*/
+	#scrollToTopBtn {
+    transform: translateX(8.313rem);
+	}
+	
+}
+
+
+@media (max-width:390px){
+	/*	navigation*/
+
+	#navigation .navbar-brand{
+/*		border: 1px solid blue;*/
+	    height: 4rem;
+	    width: 7.6rem;
+	    transform: translate(-0.8rem, -1.4rem);
+	}
+	#navigation .navbar-brand img{
+	    height: 6.9rem;
+	}
+	.navbar-toggler{
+	transform: translateX(-1.5rem);
+	height: 2.5rem;
+	weight: 2.5rem;
+	}
+	/*carousel*/
+	.home #carouselExampleFade{
+		transform: translateY(3.2rem);
+	    padding-top: 1.75rem;
+	    height: 9.2rem;
+	    padding-bottom: 1.75rem;
+	}
+	/*	aboutus*/
+	#aboutus{
+		    transform: translateY(4.5rem);
+	}
+
+	#aboutus .headline h2{
+		font-size: 0.9rem;
+    	}
+	#aboutus .aboutus-info-1{
+    	font-size: 0.7rem;
+    	transform: translateY(-2rem);
+		height: 25rem;
+
+	}
+	/*	services*/
+	#services{
+    	transform: translateY(-2rem);		
+	}
+	#services .card{
+		height: 34rem;
+	}
+	#services .card-3{
+		transform: translateY(5rem);
+	}
+	#services .card-4{
+		transform: translateY(6rem);
+	}
+	.productsolution{
+		    margin-top: 28rem;
+    margin-bottom: 1rem;
+	}
+	/*	statistics*/
+	#statistics{
+		transform: translateY(-7rem);
+	}
+	#statistics h3{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	#statistics p{
+		font-size: 0.8rem;
+		text-align: center;
+    	margin-bottom: 0.5rem;
+	}
+	/*	testimonial*/
+	#testimonial{
+		   margin-top: 0;
+    margin-bottom: 0;
+	}
+	#testimonial .testimonial-wrapper{
+		padding: 0 0.5rem;
+	}
+	#testimonial .testimonial-wrapper h3{
+		transform: translateY(1rem);
+		font-size: 0.9rem;
+	}
+		#testimonial .testimonial-wrapper span{
+			font-size: 0.9rem;
+		}
+	#testimonial .testimonial-wrapper p {
+		font-size: 0.7rem;
+	}
+	
+	/*	contact*/
+	#contact{
+/*		transform: translateY(20rem);*/
+	}
+	.contact .info li p a{
+		    font-size: 0.6rem;
+    transform: translateX(-1.4rem);
+	}
+	.contact .info li span{
+		transform: translateX(-1rem);
+
+
+	}
+	.contact .inputs{
+		transform: translate(-1.2rem, -19rem);
+
+	}
+	.contact .socials{
+		transform: translate(1rem, 27rem);
+	}
+	/*	scrollToTopBtn*/
+	#scrollToTopBtn {
+    transform: translateX(8.313rem);
+	}
+}
+
+	@media (max-width:330px){
+		
+	/*carousel*/
+	.home #carouselExampleFade{
+		transform: translateY(3.2rem);
+    	padding-top: 1.75rem;
+    	height: 10.2rem;
+    	padding-bottom: 1.75rem;
+	}
+	/*	aboutus*/
+	#aboutus{
+		    transform: translateY(3rem);
+	}
+
+	#aboutus .headline h2{
+		font-size: 0.9rem;
+    	}
+	#aboutus .aboutus-info-1{
+    	font-size: 0.7rem;
+/*    	transform: translateY(rem);*/
+		height: 25rem;
+
+	}
+	/*	services*/
+	#services{
+    	 transform: translateY(-5rem);
+    	 height: 157rem;	
+	}
+	#services .card{
+		height: 34rem;
+		transform: translateY(-2rem);
+	}
+	#services .card-2,
+	#services .card-3,
+	#services .card-4{
+		transform: translateY(2.5rem);
+	}
+	/*	services*/
+	#services .card-3{
+    	transform: translateY(1.5rem);
+    
+	}
+	/*	productsolution*/
+	.productsolution {
+    transform: translateY(-22rem);
+	}
+	/*	statistics*/
+	#statistics{
+		transform: translateY(-28rem);
+	}
+	#statistics h3{
+		text-align: center;
+		font-size: 1.5rem;
+	}
+	#statistics p{
+		font-size: 0.8rem;
+		text-align: center;
+    	margin-bottom: 0.5rem;
+	}
+	/*	testimonial*/
+	#testimonial{
+		transform: translateY(-28rem);
+	}
+	#testimonial .testimonial-wrapper{
+		padding: 0 0.5rem;
+	}
+	#testimonial .testimonial-wrapper h3{
+		transform: translateY(1rem);
+		font-size: 0.9rem;
+	}
+		#testimonial .testimonial-wrapper span{
+			font-size: 0.9rem;
+		}
+	#testimonial .testimonial-wrapper p {
+		font-size: 0.7rem;
+	}
+	/*	contact*/
+	#contact{
+		transform: translateY(-28rem);
+	}
+}
